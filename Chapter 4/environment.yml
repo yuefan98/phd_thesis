@@ -1,0 +1,23 @@
+name: mm_test
+channels:
+  - defaults
+dependencies:
+  - python == 3.11.10
+  - pip
+
+  - pip:
+    - matplotlib == 3.9.2
+    - jupyterlab 
+    - numpy == 1.24.3
+    - altair
+    - pandas == 2.2.3
+    - scipy == 1.15.0
+    - SALib == 1.5.1
+    - tqdm
+    - tabulate 
+    - impedance == 1.7.1
+    - nleis == 0.3
+    - networkx == 3.4.2
+
+
+    
